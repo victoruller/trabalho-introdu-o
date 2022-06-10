@@ -20,9 +20,13 @@ Explicação:
 O algoritmo tem a função de converter uma imagem RGB (colorida), em uma imagem em escalas de cinza ou “preto e branco” de forma básica.
 
 
+
+
 #img_grayscale_basic = (img[ : , : ,0]+img[ : , : ,1]+img[ : , : ,2])/3
 
 Primeiramente é gerado um vetor com valores de imagem, e eles são divididos de acordo com uma média ponderada que tenta dar ênfase às cores que são enfatizadas pelo olho humano.
+
+
 
 
 #cv2
